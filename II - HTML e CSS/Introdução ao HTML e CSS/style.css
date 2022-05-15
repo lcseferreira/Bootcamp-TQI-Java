@@ -1,0 +1,47 @@
+body {
+  background-color: #e2e2e2;
+  max-width: 900px;
+  margin: auto;
+}
+
+#title,
+.sub-title,
+.post-title {
+  color: #505050;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.post {
+  background-color: #ffffff;
+  padding: 2rem;
+  border: 2px solid black;
+  margin: 0;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.post-content {
+  margin: 0;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: "\1F44B";
+  padding-left: 2rem;
+}
